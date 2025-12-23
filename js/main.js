@@ -388,7 +388,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const content = document.createElement('div');
             content.className = 'hero-content';
             content.innerHTML = `
-                <span class="hero-tag">编辑推荐</span>
+                <span class="hero-tag">推荐</span>
                 <div class="hero-title">${app.name}</div>
                 <div class="hero-desc">${app.description}</div>
             `;
